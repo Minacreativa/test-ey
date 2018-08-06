@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap-sass-grid/sass/bootstrap-sass-grid.scss";
+// variables
+@import "variables/variables";
+// framework
+@import "framework/generic";
+@import "framework/fonts";
+@import "framework/icons";
+// Cabecera
+@import "header/nav_global";
+@import "header/header";
+@import "header/menu";
+// Main
+@import "modules/featured_news";
+@import "modules/news";
+@import "modules/news_mini";
+// footer
+@import "footer/footer";

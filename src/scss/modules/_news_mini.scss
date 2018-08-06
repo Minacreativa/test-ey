@@ -1,0 +1,16 @@
+.news-mini-text {
+    background-color:rgba(236, 172, 58, 0.8);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    h3 {
+        font-size: 24px;
+        margin: 15px 0 0;
+    }
+    p {
+        color: $brand-light;
+        font-size: 16px;
+        line-height: 1.5rem;
+        margin: 0;
+    }
+}

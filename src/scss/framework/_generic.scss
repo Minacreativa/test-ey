@@ -1,0 +1,43 @@
+body {
+    font-family: $open-sans;
+}
+
+.nav {
+    list-style: none;
+}
+
+// enlaces
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// Textos
+h2, h3, h4 {
+    font-family: $open-light;
+    color: $brand-primary;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 0 10px;
+    @media (min-width: $screen-md) {
+        font-size: 40px;
+        margin: 45px 0 15px;
+    }
+}
+h3 {
+    font-size: 26px;
+    margin: 15px 0 5px;
+}
+p {
+    font-family: $open-light;
+    color: $gray;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+// imagenes
+figure {
+    margin: 0px;
+}

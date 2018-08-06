@@ -1,0 +1,91 @@
+// Pie de página
+.footer-page {
+    background-color: $brand-primary;
+    color: $brand-light;
+    font-size: 11px;
+    line-height: 11px;
+    margin: 90px 0 0;
+    width: 100%;
+    p {
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .container {
+        @media (min-width: $screen-md) {
+            width: 970px;
+        }
+    }
+}
+
+// Informacion de la empresa
+.bussine-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address {
+    padding: 20px 20px 0;
+    width: 100%;
+    @media (min-width: $screen-sm) {
+        display: inline;
+        margin: 20px 100px 20px 0;
+        width: auto;
+        padding: 0;
+    }
+}
+
+.contact {
+    display: inline;
+    padding: 20px;
+    @media (min-width: $screen-sm) {
+        margin: 20px 0;
+        padding: 0;
+    }
+}
+
+// Nav enlaces de footer
+.wrapper-nav-footer {
+    border-top: 1px solid $brand-light;
+    padding: 0;
+    @media (min-width: $screen-sm) {
+        padding: 10px 0;
+    }
+}
+.nav-footer {
+    padding: 0px;
+    margin: 0px;
+
+    &-links {
+        border-top: 1px solid $gray-dark;
+        color: inherit;
+        display: block;
+        margin: 0px 10px;
+        @media (min-width: $screen-sm) {
+            display: inline;
+            border-left: 1px solid $brand-light;
+            border-top: none;
+            margin: 0px;
+        }
+        a {
+            display: block;
+            padding: 10px;
+            @media (min-width: $screen-sm) {
+                padding: 0 10px;
+                display: inline;
+            }
+        }
+
+        &:first-child {
+            @media (min-width: $screen-sm) {
+                border: none;
+                padding-left: 0px;
+                a {
+                    padding: 0 10px 0 0;
+                }
+            }
+        }
+    }
+
+    
+}

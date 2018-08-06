@@ -1,0 +1,132 @@
+// Parte superior de la web
+
+// ** Tabla de contenido **
+//  1. Globales
+//  2. Enlace teléfono
+//  3. Nav de global de links
+//      3.1. Enlaces de links
+//      3.2. textos
+//      3.3. Flecha Drop Down
+//  4. dropdown language
+// ** ** 
+
+// Navs globales
+.wrap-nav-global {
+    background-color: $brand-primary;
+    width: 100%;
+    .container {
+        display: flex;
+        justify-content: center;
+        @media (min-width: $screen-md) {
+            display: block;
+        }
+    }
+}
+
+div[class*="nav-global"] {
+    a,
+    li {
+        color: $brand-light;
+    } // iconos
+    span[class*="icon"] {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    a {
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &:hover {
+            color: $brand-secondary;
+        }
+    }
+}
+
+// Enlace teléfono
+.nav-global {
+    margin: 0;
+    padding: 15px 0px 10px 10px;
+    float: left;
+    @media (min-width: $screen-md) {
+        padding: 15px;
+    }
+}
+
+.nav-phone {
+    display: inline;
+    align-items: center;
+    font-size: 14px;
+    @media (min-width: $screen-md) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+// Nav de global de links
+// Enlaces de links
+.nav-globalLinks {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin: 0;
+    padding: 15px 0 15px 5px;
+    @media (min-width: $screen-md) {
+        border-top: 1px solid $brand-secondary;
+        padding: 15px;
+    }
+    
+
+    .nav-links {
+        margin: 0 8px;
+        @media (min-width: $screen-md) {
+            margin: 0 15px;
+        }
+    }
+}
+
+// textos
+.nav-global-text {
+    display: none;
+    font-size: 14px;
+    @media (min-width: $screen-md) {
+        display: inline;
+    }
+}
+
+// Flecha Drop Down
+.arrow-down {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid $brand-light;
+    margin: 8px 5px 0;
+}
+
+// Dropdown language
+.language {
+    position: relative;
+    ul {
+        background: $brand-secondary;
+        position: absolute;
+        top: 2;
+        left: -9999px;
+        opacity: 0;
+    }
+
+    &.dropdown {
+        ul {
+            left: -65px;
+            width: 130px;
+            opacity: 1;
+            margin: 0;
+            padding: 10px 20px;
+            li {
+                list-style: none;
+                padding: 10px 0;
+                a:hover {
+                    color: $brand-primary;
+                }
+            }
+        }
+    }
+}

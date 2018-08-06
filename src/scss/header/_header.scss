@@ -1,0 +1,44 @@
+// Cabecera
+.wrap-logo-rrss{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    @media (min-width: $screen-md) {
+        text-align: center;
+    }
+
+    img {
+        margin: 10px;
+        width: 60px;
+        @media (min-width: $screen-md) {
+            margin: 0 0 0 200px;
+            width: auto;
+        }
+    }
+
+    h1 {
+        display: none;
+    }
+}
+
+.site-logo {
+    margin: 5px 0;
+    flex: 1 1 auto;
+}
+
+// Redes sociales
+.rrss {
+    flex: 0 1 auto;
+}
+.redes {
+    margin: 0 10px;
+    li {
+        display: inline;
+        font-size: 20px;
+        color: $gray;
+        :hover {
+            color: $brand-primary;
+        }
+    }
+}

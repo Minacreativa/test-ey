@@ -1,0 +1,52 @@
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-you-tube:before {
+    content: "\e900";
+}
+
+.icon-book:before {
+    content: "\e91f";
+}
+
+.icon-phone:before {
+    content: "\e942";
+}
+
+.icon-envelop:before {
+    content: "\e945";
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.icon-key:before {
+    content: "\e98d";
+}
+
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+
+.icon-facebook:before {
+    content: "\ea91";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-linkedin:before {
+    content: "\eac9";
+}

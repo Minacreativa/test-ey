@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('#{$pathfonts}OpenSans-Regular.eot?mf5dcx');
+    src: url('#{$pathfonts}OpenSans-Regular.eot?mf5dcx#iefix') format('embedded-opentype'),
+    url('#{$pathfonts}OpenSans-Regular.ttf?mf5dcx') format('truetype'),
+    url('#{$pathfonts}OpenSans-Regular.woff?mf5dcx') format('woff'),
+    url('#{$pathfonts}OpenSans-Regular.svg?mf5dcx#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('#{$pathfonts}OpenSans-Light.eot?mf5dcx');
+    src: url('#{$pathfonts}OpenSans-Light.eot?mf5dcx#iefix') format('embedded-opentype'),
+    url('#{$pathfonts}OpenSans-Light.ttf?mf5dcx') format('truetype'),
+    url('#{$pathfonts}OpenSans-Light.woff?mf5dcx') format('woff'),
+    url('#{$pathfonts}OpenSans-Light.svg?mf5dcx#OpenSans-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiBold';
+    src: url('#{$pathfonts}OpenSans-SemiBold.eot?mf5dcx');
+    src: url('#{$pathfonts}OpenSans-SemiBold.eot?mf5dcx#iefix') format('embedded-opentype'),
+    url('#{$pathfonts}OpenSans-SemiBold.ttf?mf5dcx') format('truetype'),
+    url('#{$pathfonts}OpenSans-SemiBold.woff?mf5dcx') format('woff'),
+    url('#{$pathfonts}OpenSans-SemiBold.svg?mf5dcx#OpenSans-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('#{$pathfonts}icomoon.eot?fzttsq');
+    src: url('#{$pathfonts}icomoon.eot?fzttsq#iefix') format('embedded-opentype'), url('#{$pathfonts}icomoon.ttf?fzttsq') format('truetype'), url('#{$pathfonts}icomoon.woff?fzttsq') format('woff'), url('#{$pathfonts}icomoon.svg?fzttsq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
